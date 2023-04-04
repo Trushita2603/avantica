@@ -6,27 +6,22 @@ import java.util.regex.*;
 
 public class HIDS {
 
- public static void main(String[] args) {
+    public static void main(String[] args) {
    int i = 4;
    double d = 4.0;
    String s = "HackerRank ";
 
+        Scanner scanner = new Scanner(System.in);
+        //int n = 42;
+        //double a = 3.2456;
+        //String b ="Welecome to java coding";
 
-   int j = 4;
-   double y = 9.0;
-   String k = "is the best place to learn and practice coding!";
+        int n=Integer.parseInt(scanner.nextLine());
+        double a= Double.parseDouble(scanner.nextLine());
+        String str= scanner.nextLine();
 
-
-   int j = new j();
-   double y = new y();
-   String k = new k();
-   j.scanner.nextInt();
-   y.scanner.nextDouble();
-   k.scanner.nextLine();
-
-
-   System.out.print(j + i);
-   System.out.print(d + y);
-   System.out.print(s + k);
- }
+        System.out.println("String: " + str);
+        System.out.println("Double: " + a);
+        System.out.println("Int: " + n);
+    }
 }
